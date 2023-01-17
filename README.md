@@ -30,7 +30,7 @@ The first ("dashed") is the default. To use the second, put the
 following line anywhere in your .vimrc:
 
 ```vimscript
-    let g:HaddockToolkit_style = "curly"
+let g:HaddockToolkit_style = "curly"
 ```
 
 ## Mappings

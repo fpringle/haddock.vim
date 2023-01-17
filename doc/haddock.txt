@@ -6,34 +6,34 @@
         |  _  | (_| | (_| | (_| | (_) | (__|   <        ~
         |_| |_|\__,_|\__,_|\__,_|\___/ \___|_|\_\       ~
                                          
-====================================================================
-CONTENTS                                            *HaddockContents*
+==============================================================================
+CONTENTS                                                      *HaddockContents*
 
-    1. Usage ................................. |HaddockUsage|
-        1.1 Top-level declarations ........... |HaddockUsage_tl|
-        1.1 Options .............. ........... |HaddockUsage_opt|
-    2. Mappings .............................. |HaddockMappings|
-    3. License ............................... |HaddockLicense|
-    4. Bugs .................................. |HaddockBugs|
-    5. Contributing .......................... |HaddockContributing|
-    6. Changelog ............................. |HaddockChangelog|
-    7. Credits ............................... |HaddockCredits|
+    1. Usage ........................................... |HaddockUsage|
+        1.1 Top-level declarations ..................... |HaddockUsage_tl|
+        1.1 Options .................................... |HaddockUsage_opt|
+    2. Mappings ........................................ |HaddockMappings|
+    3. License ......................................... |HaddockLicense|
+    4. Bugs ............................................ |HaddockBugs|
+    5. Contributing .................................... |HaddockContributing|
+    6. Changelog ....................................... |HaddockChangelog|
+    7. Credits ......................................... |HaddockCredits|
 
-====================================================================
-1. Usage                                               *HaddockUsage*
+==============================================================================
+1. Usage                                                         *HaddockUsage*
 
 This plugin provides a few commands to easily add Haddock comments
 to your Haskell code.
 
---------------------------------------------------------------------
-1.1 Top-level declarations                          *HaddockUsage_tl*
+------------------------------------------------------------------------------
+1.1 Top-level declarations                                    *HaddockUsage_tl*
 
-The :HaddockDeclaration command finds the top-level declaration
-of the body of code currently under the cursor, starts a Haddock
-documentation comment, and leaves you in insert mode.
+The :HaddockDeclaration command finds the top-level declaration of the
+body of code currently under the cursor, starts a Haddock documentation
+comment, and leaves you in insert mode.
 
---------------------------------------------------------------------
-1.2 Options                                        *HaddockUsage_opt*
+------------------------------------------------------------------------------
+1.2 Options                                                  *HaddockUsage_opt*
 
 Haddock supports 2 styles of comment:
 
@@ -46,44 +46,44 @@ Haddock supports 2 styles of comment:
     -}
     newtype MyType = ...
 
-The first ("dashed") is the default. To use the second, put the
-following line anywhere in your .vimrc:
+The first ("dashed") is the default. To use the second, put the following
+line anywhere in your .vimrc:
 
     let g:HaddockToolkit_style = "curly"
 
-====================================================================
-2. Mappings                                         *HaddockMappings*
+==============================================================================
+2. Mappings                                                   *HaddockMappings*
 
-The default mappings are enabled only when editing a Haskell file
-and are:
+The default mappings are enabled only when editing a Haskell file and are:
 
   <localleader>hd     - top-level declaration, see |HaddockUsage_tl|
 
-====================================================================
-3. License                                           *HaddockLicense*
+==============================================================================
+3. License                                                     *HaddockLicense*
 
 haddock.vim is licensed under BSD-3.
 
-====================================================================
-4. Bugs                                                 *HaddockBugs*
+==============================================================================
+4. Bugs                                                           *HaddockBugs*
 
 Please report any bugs or issues at github.com/fpringle/haddock.vim.
 
-====================================================================
-5. Contributing                                 *HaddockContributing*
+==============================================================================
+5. Contributing                                           *HaddockContributing*
 
-Please feel free to submit pull requests at
-github.com/fpringle/haddock.vim.
+Please feel free to submit pull requests at github.com/fpringle/haddock.vim.
 
-====================================================================
-6. Changelog                                       *HaddockChangelog*
+==============================================================================
+6. Changelog                                                 *HaddockChangelog*
 
 v0.1.0
     * basic functionality
-
-====================================================================
-7. Credits                                           *HaddockCredits*
+==============================================================================
+7. Credits                                                     *HaddockCredits*
 
 haddock.vim is developed by Frederick Pringle.
 
 Title ASCII art made with _figlet_.
+
+==============================================================================
+ vim:tw=78:ts=8:ft=help:
