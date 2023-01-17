@@ -83,7 +83,7 @@ v0.1.0
 
 haddock.vim is developed by Frederick Pringle.
 
-Title ASCII art made with _figlet_.
+Title ASCII art made with figlet.
 
 ==============================================================================
  vim:tw=78:ts=8:ft=help:
