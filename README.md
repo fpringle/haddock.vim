@@ -38,4 +38,4 @@ let g:HaddockToolkit_style = "curly"
 The default mappings (enabled only when editing a Haskell file)
 are:
 
-  <localleader>hd     - [HaddockDeclaration](#usage)
+```<localleader>hd```       - [HaddockDeclaration](#usage)
