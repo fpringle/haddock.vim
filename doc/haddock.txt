@@ -54,8 +54,15 @@ following line anywhere in your .vimrc:
 ====================================================================
 2. Mappings                                         *HaddockMappings*
 
+The default mappings are enabled only when editing a Haskell file
+and are:
+
+  <localleader>hd     - top-level declaration, see |HaddockUsage_tl|
+
 ====================================================================
 3. License                                           *HaddockLicense*
+
+haddock.vim is licensed under BSD-3.
 
 ====================================================================
 4. Bugs                                                 *HaddockBugs*
@@ -63,8 +70,18 @@ following line anywhere in your .vimrc:
 ====================================================================
 5. Contributing                                 *HaddockContributing*
 
+Please feel free to submit pull requests and raise issues on
+the GitHub repo (fpringle/haddock.vim).
+
 ====================================================================
 6. Changelog                                       *HaddockChangelog*
 
+v0.1.0
+    * basic functionality
+
 ====================================================================
 7. Credits                                           *HaddockCredits*
+
+haddock.vim is developed by Frederick Pringle.
+
+Title ASCII art made with _figlet_.
