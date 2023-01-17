@@ -1,0 +1,11 @@
+HaddockBugs	haddock.txt	/*HaddockBugs*
+HaddockChangelog	haddock.txt	/*HaddockChangelog*
+HaddockContents	haddock.txt	/*HaddockContents*
+HaddockContributing	haddock.txt	/*HaddockContributing*
+HaddockCredits	haddock.txt	/*HaddockCredits*
+HaddockLicense	haddock.txt	/*HaddockLicense*
+HaddockMappings	haddock.txt	/*HaddockMappings*
+HaddockUsage	haddock.txt	/*HaddockUsage*
+HaddockUsage_opt	haddock.txt	/*HaddockUsage_opt*
+HaddockUsage_tl	haddock.txt	/*HaddockUsage_tl*
+haddock.vim	haddock.txt	/*haddock.vim*

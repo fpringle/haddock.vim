@@ -1,0 +1,70 @@
+*haddock.vim* Easily add Haddock documentation comments in Vim
+
+         _   _           _     _            _           ~
+        | | | | __ _  __| | __| | ___   ___| | __       ~
+        | |_| |/ _` |/ _` |/ _` |/ _ \ / __| |/ /       ~
+        |  _  | (_| | (_| | (_| | (_) | (__|   <        ~
+        |_| |_|\__,_|\__,_|\__,_|\___/ \___|_|\_\       ~
+                                         
+====================================================================
+CONTENTS                                            *HaddockContents*
+
+    1. Usage ................................. |HaddockUsage|
+        1.1 Top-level declarations ........... |HaddockUsage_tl|
+        1.1 Options .............. ........... |HaddockUsage_opt|
+    2. Mappings .............................. |HaddockMappings|
+    3. License ............................... |HaddockLicense|
+    4. Bugs .................................. |HaddockBugs|
+    5. Contributing .......................... |HaddockContributing|
+    6. Changelog ............................. |HaddockChangelog|
+    7. Credits ............................... |HaddockCredits|
+
+====================================================================
+1. Usage                                               *HaddockUsage*
+
+This plugin provides a few commands to easily add Haddock comments
+to your Haskell code.
+
+--------------------------------------------------------------------
+1.1 Top-level declarations                          *HaddockUsage_tl*
+
+The :HaddockDeclaration command finds the top-level declaration
+of the body of code currently under the cursor, starts a Haddock
+documentation comment, and leaves you in insert mode.
+
+--------------------------------------------------------------------
+1.2 Options                                        *HaddockUsage_opt*
+
+Haddock supports 2 styles of comment:
+
+    -- | A top-level function
+    function :: Int -> String
+    function = ...
+
+    {-|
+      A newtype declaration
+    -}
+    newtype MyType = ...
+
+The first ("dashed") is the default. To use the second, put the
+following line anywhere in your .vimrc:
+
+    let g:HaddockToolkit_style = "curly"
+
+====================================================================
+2. Mappings                                         *HaddockMappings*
+
+====================================================================
+3. License                                           *HaddockLicense*
+
+====================================================================
+4. Bugs                                                 *HaddockBugs*
+
+====================================================================
+5. Contributing                                 *HaddockContributing*
+
+====================================================================
+6. Changelog                                       *HaddockChangelog*
+
+====================================================================
+7. Credits                                           *HaddockCredits*
