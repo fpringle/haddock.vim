@@ -67,11 +67,13 @@ haddock.vim is licensed under BSD-3.
 ====================================================================
 4. Bugs                                                 *HaddockBugs*
 
+Please report any bugs or issues at github.com/fpringle/haddock.vim.
+
 ====================================================================
 5. Contributing                                 *HaddockContributing*
 
-Please feel free to submit pull requests and raise issues on
-the GitHub repo (fpringle/haddock.vim).
+Please feel free to submit pull requests at
+github.com/fpringle/haddock.vim.
 
 ====================================================================
 6. Changelog                                       *HaddockChangelog*
